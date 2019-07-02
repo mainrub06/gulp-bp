@@ -5,7 +5,7 @@
 ## Установка шаблона
 
 ```bash
-git clone git@github.com:mainrub06/template_base.git project-name
+git clone git@github.com:mainrub06/template_jquery.git project-name
 cd project-name
 ```
 
