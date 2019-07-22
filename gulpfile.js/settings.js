@@ -43,7 +43,8 @@ module.exports = {
     ],
     styles: [
       './source/custom-styles/fancybox.min.css',
-      './source/custom-styles/owl.carousel.min.css'
+      './source/custom-styles/owl.carousel.min.css',
+      './source/custom-styles/normilize.min.css'
     ]
   }
 };
