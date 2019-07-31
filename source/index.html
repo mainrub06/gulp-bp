@@ -3,10 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Название проекта</title>
   <link rel="stylesheet" href="css/normilize.min.css">
+  <link rel="stylesheet" href="css/fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -16,17 +20,37 @@
   </header>
 
   <main class="main-page">
-  <p>Здесь будет работать jQuery</p>
+    <p>Здесь будет работать jQuery</p>
 
   </main>
 
   <footer class="page-footer">
   </footer>
 
+  <template-form>
+    <form action="" method="POST" id="form_01" class="js-submit">
+      <p class="out-form-title">Оставить заявку</p>
+      <div class="popup-stick"></div>
+      <div class="form-err-place"></div>
+      <input type="hidden" name="SUBMIT" value="Сообщение с лендинга - //////">
+      <input type="text" name="name" placeholder="Ваше имя">
+      <input type="text" name="tel" placeholder="Номер телефона">
+      <div class="policy">
+        <input id="check-0" class="visually-hidden" type="checkbox" name="checkbox" checked>
+        <label for="check-0" class="policy-check">
+        </label>
+        <p>Нажимая на кнопку, вы даете согласие на обработку персональных данных бесплатно</p>
+      </div>
+      <input type="submit" class="order-submit" value="Оставить заявку">
+    </form>
+  </template-form>
+
   <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/svg4everybody.min.js"></script>
-  <script src="js/picturefill.min.js"></script>
-  <script src="js/polyfill.min.js"></script>
+  <script src="js/jquery.form.min.js"></script>
+
+  <script src="js/swiper.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
   <script src="js/index.min.js"></script>
 </body>
 
