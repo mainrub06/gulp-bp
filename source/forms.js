@@ -11,9 +11,17 @@ $(document).ready(function () {
       url: './form.php',
       beforeSubmit: function () {
         if (form.find('input[type=checkbox]').prop("checked")) {
-          console.log('ok');
+          console.log('checkbox-checked =)');
         } else {
           form.find('.form-err-place').html('<div class="err">Поставьте галочку</div>');
+          return false;
+        }
+        if (form.find('input[name=name]').val() === '') {
+          form.find('.form-err-place').html('<div class="err">Введите ваше имя</div>');
+          return false;
+        }
+        if (form.find('input[name=tel]').val() === '') {
+          form.find('.form-err-place').html('<div class="err">Введите ваш телефон</div>');
           return false;
         }
       },
@@ -33,9 +41,8 @@ $(document).ready(function () {
             setTimeout(function () {
               instance.close();
             }, 5000);
-            form.find('input[name=email]').val('');
             form.find('input[name=name]').val('');
-            form.find('input[name=phone]').val('');
+            form.find('input[name=tel]').val('');
             form.find('.form-err-place .err').text('');
           }
         }
