@@ -8,8 +8,8 @@ const htmlmin = require('gulp-htmlmin');
 // Минификация HTML
 task('pages', () => {
   let optionsHtmlmin = {
-    collapseInlineTagWhitespace: true,
-    collapseWhitespace: true,
+    collapseInlineTagWhitespace: false,
+    collapseWhitespace: false,
     removeComments: true
   };
 

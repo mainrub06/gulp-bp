@@ -1,6 +1,18 @@
+// глобальные стили
+
 @import "global.scss";
-@import "fonts.scss";
-@import "header.scss";
-@import "main.scss";
-@import "footer.scss";
-@import "animate.scss";
+@import "./mixins/global.scss";
+
+// шрифты
+
+@import "./fonts/fonts.scss";
+
+// анимации
+
+@import "./animations/animate.scss";
+
+// стили блоков
+
+@import "./style_components/header.scss";
+@import "./style_components/footer.scss";
+

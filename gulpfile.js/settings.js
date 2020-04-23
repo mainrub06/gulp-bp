@@ -32,17 +32,17 @@ module.exports = {
   },
   vendor: {
     scripts: [
-      './source/plugins/jquery-3.4.1.min.js',
-      './source/plugins/jquery.fancybox.min.js',
-      './source/plugins/owl.carousel.min.js',
-      './source/plugins/jquery.form.min.js',
-      './source/plugins/swiper.min.js'
+      './source/assets/scripts/jquery-3.5.0.min.js',
+      './source/assets/scripts/jquery.fancybox.min.js',
+      './source/assets/scripts/jquery.form.min.js',
+      './source/assets/scripts/swiper.min.js',
+      // './source/assets/scripts/aos.js'
     ],
     styles: [
-      './source/custom-styles/fancybox.min.css',
-      './source/custom-styles/owl.carousel.min.css',
-      './source/custom-styles/swiper.min.css',
-      './source/custom-styles/normilize.min.css'
+      './source/assets/styles/fancybox.min.css',
+      './source/assets/styles/swiper.min.css',
+      './source/assets/styles/normalize.min.css',
+      // './source/assets/styles/aos.css'
     ]
   }
 };
