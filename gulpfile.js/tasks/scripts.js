@@ -17,7 +17,7 @@ task('scripts', () =>
     .pipe(gulpIf(isDev, sourcemaps.init()))
     .pipe(babel())
     .pipe(concat('index.js'))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(gulpIf(isDev, sourcemaps.write()))
     .pipe(rename({ suffix: '.min' }))
     .pipe(dest(settings.paths.dest.scripts))

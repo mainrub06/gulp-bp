@@ -34,15 +34,13 @@ module.exports = {
     scripts: [
       './source/plugins/jquery-3.4.1.min.js',
       './source/plugins/jquery.fancybox.min.js',
-      './source/plugins/owl.carousel.min.js',
       './source/plugins/jquery.form.min.js',
       './source/plugins/swiper.min.js'
     ],
     styles: [
       './source/custom-styles/fancybox.min.css',
-      './source/custom-styles/owl.carousel.min.css',
       './source/custom-styles/swiper.min.css',
-      './source/custom-styles/normilize.min.css'
+      './source/custom-styles/normalize.min.css'
     ]
   }
 };

@@ -1,6 +1,6 @@
 {
   "name": "gulp-sass-clean",
-  "version": "3.1.0",
+  "version": "1.1",
   "description": "Базовый шаблон проекта со сборкой на Gulp-Sass",
   "main": "gulpfile.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "deploy": "npm run build && gh-pages -d build",
     "dist": "npm run build && gulp zip",
     "lintspaces": "gulp lintspaces",
-    "stylelint": "stylelint \"source/styles/**/*.less\" --syntax less",
+    "stylelint": "stylelint \"source/styles/**/*.sass\" --syntax sass",
     "eslint": "eslint \"source/js/**/*.js\"",
     "test": "npm run lintspaces && npm run stylelint && npm run eslint"
   },
@@ -58,9 +58,7 @@
     "stylelint-config-standard": "^18.3.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.4",
-    "picturefill": "^3.0.3",
-    "svg4everybody": "^2.1.9"
+    "@babel/polyfill": "^7.4.4"
   },
   "browserslist": [
     "defaults"
