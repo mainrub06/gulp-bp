@@ -1,0 +1,34 @@
+.page-header {
+  padding: 15px 0;
+  background: blueviolet;
+}
+
+.wrap {
+  @include wrapper();
+}
+
+.header-row {
+  @include row-flex();
+  @include fullhd(justify-content, flex-start);
+  @include iphone5(justify-content, flex-start);
+
+  .header-col {
+    @include col();
+    @include size(2);
+    @include size-iphone5(12);
+    @include size-tablet(3);
+    background-color: red;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    @media(max-width: $break_tablet) {
+      margin-bottom: 15px;
+    }
+
+    &:nth-child(1) {
+      @include size(1);
+      @include size-iphone5(4);
+      @include size-tablet(2);
+    }
+  }
+}
