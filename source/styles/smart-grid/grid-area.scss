@@ -1,16 +1,19 @@
 .page-header {
   padding: 15px 0;
   background: blueviolet;
+  height: 300px;
 }
 
 .wrap {
   @include wrapper();
+  height: 200px;
 }
 
 .header-row {
   @include row-flex();
   @include fullhd(justify-content, flex-start);
   @include iphone5(justify-content, flex-start);
+  margin-bottom: 15px;
 
   .header-col {
     @include col();

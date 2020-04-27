@@ -36,13 +36,15 @@ module.exports = {
       './source/assets/scripts/jquery.fancybox.min.js',
       './source/assets/scripts/jquery.form.min.js',
       './source/assets/scripts/swiper.min.js',
-      // './source/assets/scripts/aos.js'
+      // './source/assets/scripts/aos.js',
+      './source/assets/scripts/simplebar.min.js',
     ],
     styles: [
       './source/assets/styles/fancybox.min.css',
       './source/assets/styles/swiper.min.css',
       './source/assets/styles/normalize.min.css',
       // './source/assets/styles/aos.css'
+      './source/assets/styles/simplebar.min.css'
     ]
   }
 };
