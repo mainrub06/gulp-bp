@@ -10,9 +10,7 @@
     "dist": "npm run build && gulp zip",
     "lintspaces": "gulp lintspaces",
     "stylelint": "stylelint \"source/styles/**/*.scss\" --syntax sass",
-    "eslint": "eslint \"source/js/**/*.js\"",
-    "test": "",
-    "smart-grid": "node ./smart-grid.js/smart-grid-config.js"
+    "eslint": "eslint \"source/js/**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -55,7 +53,6 @@
     "node-sass": "^4.12.0",
     "require-dir": "^1.2.0",
     "simplebar": "^5.1.0",
-    "smart-grid": "^2.1.2",
     "stylelint": "^10.0.1",
     "stylelint-config-standard": "^18.3.0"
   },

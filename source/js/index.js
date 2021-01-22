@@ -1,4 +1,1 @@
-'use strict';
-
-new SimpleBar($('.wrap')[0])
-
+"use strict";
