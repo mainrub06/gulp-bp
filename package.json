@@ -48,7 +48,6 @@
     "gulp-svgstore": "^7.0.1",
     "gulp-uglify": "^3.0.2",
     "gulp-zip": "^4.2.0",
-    "husky": "^2.3.0",
     "imagemin-jpegoptim": "^6.0.0",
     "node-sass": "^4.12.0",
     "require-dir": "^1.2.0",
@@ -61,10 +60,5 @@
   },
   "browserslist": [
     "defaults"
-  ],
-  "husky": {
-    "hooks": {
-      "pre-push": "npm test"
-    }
-  }
+  ]
 }
