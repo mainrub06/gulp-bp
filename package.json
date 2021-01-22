@@ -1,6 +1,6 @@
 {
   "name": "gulp-sass-clean",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "Базовый шаблон проекта со сборкой на Gulp-Sass",
   "main": "gulpfile.js",
   "scripts": {
@@ -10,7 +10,8 @@
     "dist": "npm run build && gulp zip",
     "lintspaces": "gulp lintspaces",
     "stylelint": "stylelint \"source/styles/**/*.scss\" --syntax sass",
-    "eslint": "eslint \"source/js/**/*.js\""
+    "eslint": "eslint \"source/js/**/*.js\"",
+    "test": "npm run eslint && stylelint"
   },
   "repository": {
     "type": "git",
